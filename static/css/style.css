@@ -549,3 +549,17 @@ ul {
 	background-color: #5149C9;
 	color: white;
 }
+
+@media screen and (max-width: 768px) {
+	.center-button {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.center-footer {
+		display: flex;
+		justify-content: center;
+	}
+}
