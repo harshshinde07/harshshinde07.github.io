@@ -48,13 +48,13 @@
 /*$dark: #363636;*/
 
 :root {
-  --primary: #6D63FF !important;
-  --secondary: #FFC300 !important;
-  --ternary: #FF0058 !important;
+	--primary: #6D63FF !important;
+	--secondary: #FFC300 !important;
+	--ternary: #FF0058 !important;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 /*#6A5ACD*/
@@ -70,218 +70,496 @@ html {
 
 /*  Text  */
 .title.is-1 {
-  /*font-family: 'Open Sans', sans-serif;*/
-  font-family: 'Noto Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Noto Sans', sans-serif;
 }
+
 .title.is-2 {
-  /*font-family: 'Open Sans', sans-serif;*/
-  font-family: 'Noto Sans', sans-serif;
-  margin-bottom: 2rem;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Noto Sans', sans-serif;
+	/*margin-bottom: 2rem;*/
+		font-size: 2rem;
+		margin-bottom: 20px;
 }
+
 .title.is-3:hover {
-  color: var(--primary);
+	color: var(--primary);
 }
+
 .title.is-2.has-text-purple {
-  color: #6D63FF;
-  font-weight: bold;
+	color: #6D63FF;
+	font-weight: bold;
 }
+
 .title.is-4 {
-  font-family: 'Noto Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 .intro-text {
-  font-family: 'Noto Sans', sans-serif;
-  /*font-weight: lighter;*/
-  font-size: large;
+	font-family: 'Noto Sans', sans-serif;
+	/*font-weight: lighter;*/
+	font-size: large;
 }
+
 .subtitle.is-3.has-text-purple {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 700;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
 }
+
 .subtitle.is-5.has-text-purple {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 500;
-  color: var(--primary);
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 500;
+	color: var(--primary);
 }
+
 .subtitle.is-5 {
-  font-family: 'Noto Sans', sans-serif;
-  margin-bottom: 0.5rem;
+	font-family: 'Noto Sans', sans-serif;
+	margin-bottom: 0.5rem;
+	margin-top: -10px;
 }
+
 .subtitle.is-5.has-text-grey {
-  font-family: 'Noto Sans', sans-serif;
-  color: #999999;
+	font-family: 'Noto Sans', sans-serif;
+	color: #999999;
 }
+
 .subtitle.is-6.has-text-grey {
-  font-family: 'Noto Sans', sans-serif;
-  color: #999999;
+	font-family: 'Noto Sans', sans-serif;
+	color: #999999;
 }
 
 .tag.is-medium.is-purple {
-  background-color: var(--primary);
-  color: white;
-}
-.tag.is-medium.is-yellow {
-  background-color: var(--secondary);
-  color: white;
+	background-color: var(--primary);
+	color: white;
 }
 
-.navbar-item:hover {
-  scale: 1.1
+.tag.is-medium.is-yellow {
+	background-color: var(--secondary);
+	color: white;
 }
+
+/*.navbar-item:hover {*/
+/*  scale: 1.1*/
+/*}*/
 
 /*  Button  */
 .button.is-primary {
-  background: var(--primary) !important;
+	background: var(--primary) !important;
 }
 
 .button.is-primary:hover {
-  background: var(--primary);
-  transform: scale(1.05);
+	background: var(--primary);
+	transform: scale(1.05);
 }
 
 .buttons {
-  margin-left: 1rem;
-  margin-top: 1.5rem;
+	/*margin-left: 1rem;*/
+	margin-top: 1rem;
 }
 
 .button.is-primary.is-medium {
-  background-color: var(--primary);
-  border-color: var(--primary);
-  /*font-weight: bold;*/
+	background-color: var(--primary);
+	border-color: var(--primary);
+	border-radius: 32px;
+	/*font-weight: bold;*/
 }
 
 .button.is-primary.is-medium:hover {
-  background-color: #5149C9;
-  border-color: #5149C9;
+	background-color: #5149C9;
+	border-color: #5149C9;
 }
 
 .button.is-primary.is-medium:focus {
-  background-color: #3E36A3;
-  border-color: #3E36A3;
+	background-color: #3E36A3;
+	border-color: #3E36A3;
 }
 
 .button.is-primary.is-medium:active {
-  background-color: #302A80;
-  border-color: #302A80;
+	background-color: #302A80;
+	border-color: #302A80;
 }
 
 
 /*  Icons  */
 .has-color-primary {
-  color: var(--primary);
+	color: var(--primary);
 }
 
 .has-color-secondary {
-  color: var(--secondary);
+	color: var(--secondary);
 }
 
 .has-color-ternary {
-  color: var(--ternary);
+	color: var(--ternary);
 }
 
 .has-text-purple {
-  font-family: 'Noto Sans', sans-serif;
-  color: #6D63FF;
+	font-family: 'Noto Sans', sans-serif;
+	color: #6D63FF;
 }
 
 
 /*  Socials  */
 .social-icon {
-  margin-right: 10px;
-  color: black;
+	margin-right: 10px;
+	color: black;
 }
 
 .social-icon:hover {
-  color: var(--primary);
+	color: var(--primary);
 }
 
 .emoji {
-  display: inline-block;
-  margin-right: 10px;
-  font-size: 1.2em;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 1.2em;
 }
 
 /*  Tags  */
 .tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  /*margin: 10px 0;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	/*margin: 10px 0;*/
 }
 
 .tag {
-  margin: 5px;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 20px;
-  padding: 8px 20px;
-  transition: all 0.3s ease-in-out;
+	margin: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 20px;
+	padding: 8px 20px;
+	transition: all 0.3s ease-in-out;
 }
 
 .tag:hover {
-  transform: scale(1.1);
-  cursor: default;
+	transform: scale(1.1);
+	cursor: default;
 }
 
 .tag.is-danger {
-  background-color: #e74c3c;
-  color: #fff;
+	background-color: #e74c3c;
+	color: #fff;
 }
 
 .tag.is-primary {
-  background-color: #3498db;
-  color: #fff;
+	background-color: #3498db;
+	color: #fff;
 }
 
 .tag.is-warning {
-  background-color: #f1c40f;
-  color: #fff;
+	background-color: #f1c40f;
+	color: #fff;
 }
 
 .tag.is-success {
-  background-color: #2ecc71;
-  color: #fff;
+	background-color: #2ecc71;
+	color: #fff;
 }
 
 .tag.is-info {
-  background-color: #2980b9;
-  color: #fff;
+	background-color: #2980b9;
+	color: #fff;
 }
 
 .tag.is-link {
-  background-color: #9b59b6;
-  color: #fff;
+	background-color: #9b59b6;
+	color: #fff;
 }
 
 
 /*  List  */
-ul li.items{
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: lighter;
+ul li.items {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: lighter;
+  list-style-type: none;
+	margin-left: -20px;
+}
+
+ul.has-text-white {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ul.has-text-white li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 ul.has-text-black {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  list-style-type: none;
-  font-family: 'Noto Sans', sans-serif;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	list-style-type: none;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+ul.has-text-black li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.5rem;
 }
 
 ul.has-text-grey {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  list-style-type: none;
-  font-family: 'Noto Sans', sans-serif;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	list-style-type: none;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 ul.has-text-grey li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5rem;
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.5rem;
 }
 
 /*ul.has-text-grey li i {*/
 /*  margin-right: 0.5rem;*/
 /*  color: var(--primary);*/
 /*}*/
+
+
+/* Courses Page Styling */
+/* Add custom styling for course cards */
+.card.course-card {
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+	/*padding-bottom: 1rem;*/
+}
+
+.card.course-card:hover {
+	transform: translateY(-5px);
+}
+
+.card-footer {
+	background-color: #f5f5f5;
+}
+
+/* Center-align text in card footer */
+.card-footer-item {
+	text-align: center;
+}
+
+/* Style course title and subtitle */
+/*.title {*/
+/*  margin-bottom: 5px;*/
+/*  font-weight: bold;*/
+/*  color: #333;*/
+/*}*/
+.title {
+	font-family: 'Noto Sans', sans-serif;
+!important;
+}
+
+.subtitle {
+	font-family: 'Noto Sans', sans-serif;
+!important;
+}
+
+.title.is-white {
+	color: white;
+}
+
+.subtitle.is-white {
+	color: white;
+	font-weight: lighter;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/* Add spacing between course cards */
+.columns {
+	margin-top: -10px;
+}
+
+/* Style page title */
+/*.section .title {*/
+/*	font-size: 2rem;*/
+/*	margin-bottom: 20px;*/
+/*	!*color: #333;*!*/
+/*}*/
+
+/* Style the navigation bar buttons */
+/*.navbar-item.button-link {*/
+/*  background-color: var(--primary); !* Set your desired background color *!*/
+/*  color: white; !* Set the text color *!*/
+/*  border: 2px solid var(--primary); !* Set border properties *!*/
+/*  border-radius: 4px; !* Add rounded corners *!*/
+/*  padding: 10px 15px; !* Add padding *!*/
+/*  !* Add margin between buttons *!*/
+/*  !* Add margin to create space above the button *!*/
+/*  !* Adjust the value as needed *!*/
+/*  margin: 10px 5px 0;*/
+/*  transition: background-color 0.3s, color 0.3s, border-color 0.3s; !* Add smooth transition effect *!*/
+/*}*/
+
+/*.navbar-item.button-link:hover {*/
+/*  background-color: white; !* Change background color on hover *!*/
+/*  color: #5149C9; !* Change text color on hover *!*/
+/*  border-color: #5149C9; !* Change border color on hover *!*/
+/*}*/
+
+.navbar-item.button-link {
+	background-color: var(--primary); /* Set your desired background color */
+	color: white; /* Set the text color */
+	border: 1.5px solid var(--primary); /* Set border properties */
+	border-radius: 4px; /* Add rounded corners */
+	padding: 10px 10px; /* Add padding */
+	/* Add margin between buttons */
+	/* Add margin to create space above the button */
+	/* Adjust the value as needed */
+	margin: 10px 5px 0;
+	font-size: 16px;
+	font-weight: bold;
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add smooth transition effect */
+}
+
+/*.navbar-item.button-link:hover {*/
+/*  scale: 1.1;*/
+/*  background-color: var(--primary); !* Change background color on hover *!*/
+/*  color: var(--primary); !* Change text color on hover *!*/
+/*  border-color: var(--primary); !* Change border color on hover *!*/
+/*}*/
+
+/* Taking footer at the end of page */
+/* Apply flex display to the wrapper */
+/*.wrapper {*/
+/*  display: grid;*/
+/*  grid-template-rows: auto 1fr auto; !* Header, Content, Footer *!*/
+/*  min-height: 100vh; !* Ensure the wrapper takes the full height of the viewport *!*/
+/*}*/
+
+/* Expand the main content to fill available space */
+/*main {*/
+/*  flex-grow: 1;*/
+/*}*/
+
+/*!* Style the course details *!*/
+/*.course-details {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap; !* Wrap details onto a new line if needed *!*/
+/*  justify-content: space-between;*/
+/*  align-items: center;*/
+/*}*/
+
+/*!* Style the details row *!*/
+/*.details-row {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
+
+/* Style the actual price (scratched-out) */
+.actual-price {
+	text-decoration: line-through;
+	color: #888; /* Adjust color as needed */
+	margin-right: 1px;
+	margin-left: 5px;
+}
+
+/* Style the discounted price */
+.discounted-price {
+	font-weight: bold;
+	font-size: 24px; /* Adjust font size as needed */
+	color: #33cc33; /* Adjust color as needed */
+}
+
+
+.columns.is-vcentered {
+	margin-top: -20px; /* Adjust as needed */
+	margin-bottom: -40px; /* Adjust as needed */
+}
+
+/* Adjust padding between column items */
+.column {
+	padding-top: 10px; /* Adjust as needed */
+	padding-bottom: 10px; /* Adjust as needed */
+}
+
+/*.notification {*/
+/*  !*display: inline-block;*!*/
+/*  text-align: center;*/
+/*}*/
+
+.has-background-purple {
+	background-color: #5149C9;
+}
+
+.whatsapp-button {
+	margin-top: -10px;
+	background-color: #25d366;
+	color: white;
+	border-radius: 32px;
+	transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the WhatsApp button */
+.whatsapp-button:hover {
+	/*background-color: #128c7e;*/
+	background-color: #36d681;
+	color: white;
+	transform: scale(1.05);
+}
+
+.has-color-white {
+	color: white;
+}
+
+ul.has-text-white {
+	color: white;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	list-style-type: none;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+ul.has-text-white li {
+	color: white;
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.card {
+	margin-bottom: 2px;
+}
+
+.card-header {
+	padding: 0; /* Remove padding from header */
+}
+
+.card-header-title {
+	padding: 10px; /* Add padding to title for spacing */
+}
+
+.expandable-content {
+	display: none;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: disc; /* Change bullet style: disc, circle, square, none, etc. */
+	color: black; /* Change bullet color */
+	font-size: 16px; /* Change bullet size */
+	margin-left: 20px; /* Adjust margin to control the space between bullet and content */
+}
+
+.is-purple {
+	background-color: #5149C9;
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+	.center-button {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.center-footer {
+		display: flex;
+		justify-content: center;
+	}
+}
